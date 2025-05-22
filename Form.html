@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration Form | Sumit's Store</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="css/nunito-font.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="css/registration.css"/>
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+</head>
+<body class="form-v9">
+	<div class="page-content">
+		<div class="form-v9-content" style="background-image: url('images/form-v9.jpg')">
+			<form class="form-detail" action="register-handler.php" method="post">
+				<h2>Registration Form</h2>
+				<div class="form-row-total">
+					<div class="form-row">
+						<input type="text" name="full-name" id="full-name" class="input-text" placeholder="Your Name" required>
+					</div>
+					<div class="form-row">
+						<input type="email" name="your-email" id="your-email" class="input-text" placeholder="Your Email" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+					</div>
+				</div>
+				<div class="form-row-total">
+					<div class="form-row">
+						<input type="password" name="password" id="password" class="input-text" placeholder="New Password" required minlength="8">
+					</div>
+					<div class="form-row">
+						<input type="password" name="confirm-password" id="confirm-password" class="input-text" placeholder="Confirm New Password" required>
+					</div>
+				</div>
+				<div class="form-row-total">
+					<div class="form-row">
+						<input type="text" name="phone" id="phone" class="input-text" placeholder="Phone Number">
+					</div>
+					<div class="form-row">
+						<select name="gaming-platform" id="gaming-platform" class="input-text">
+							<option value="">Preferred Gaming Platform</option>
+							<option value="pc">PC</option>
+							<option value="playstation">PlayStation</option>
+							<option value="xbox">Xbox</option>
+							<option value="nintendo">Nintendo</option>
+							<option value="mobile">Mobile</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-checkbox">
+					<label class="container"><p>I agree to the <a href="#" class="text">Terms and Conditions</a></p>
+					  <input type="checkbox" name="checkbox" required>
+					  <span class="checkmark"></span>
+					</label>
+				</div>
+				<div class="form-row-last">
+					<input type="submit" name="register" class="register" value="Register">
+					<p class="already-have-account">Already have an account? <a href="Login.html">Login</a></p>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
