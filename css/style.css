@@ -661,18 +661,18 @@ button {
 }
 
 .main_bt {
-    background: #ed1c24;
-    border: none;
-    color: #faf9f9;
-    width: 160px;
-    height: 58px;
-    font-size: 24px;
-    padding-top: 3px;
-    border-radius: 30px;
-    margin-left: 15px;
-    text-align: center;
-    padding-top: 8px;
-    margin-top: 60px;
+  background: #ed1c24;
+ border: none;
+ color: #faf9f9;
+ width: 160px;
+ height: 58px;
+ font-size: 24px;
+ border-radius: 30px;
+ margin-left: 15px;
+ margin-top: 60px;
+ text-align: center;
+ padding: 8px 0;
+ cursor: pointer;
 }
 .main_bt a {
     color: #faf9f9;
@@ -818,6 +818,7 @@ button {
 .padding_video_0{
     margin-top: 0px; 
 }
+
 
 
 
