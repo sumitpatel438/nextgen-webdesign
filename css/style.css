@@ -661,26 +661,16 @@ button {
 }
 
 .main_bt {
-  background: #ed1c24;
- border: none;
- color: #faf9f9;
- width: 160px;
- height: 58px;
- font-size: 24px;
- border-radius: 30px;
- margin-left: 15px;
- margin-top: 60px;
- text-align: center;
- padding: 8px 0;
- cursor: pointer;
+ background: transparent; border: 2px solid #ed1c24; color: #ed1c24; width: 160px; height: 58px; font-size: 24px; border-radius: 30px; margin-left: 15px; margin-top: 60px; text-align: center; padding: 8px 0; cursor: pointer; transition: background-color 0.3s, color 0.3s;
 }
 .main_bt a {
     color: #faf9f9;
 }
 
 .main_bt a:hover{
-    color: #000;
-}
+ background-color: #ed1c24;
+ color: #faf9f9;  
+ }
 
 .ipsum_text_2 {
     width: 100%;
@@ -818,6 +808,7 @@ button {
 .padding_video_0{
     margin-top: 0px; 
 }
+
 
 
 
