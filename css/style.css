@@ -663,7 +663,7 @@ button {
 .main_bt {
     background: #ed1c24;
     border: none;
-    color: #faf9f9;
+    color: #ed1c24;
     width: 160px;
     height: 58px;
     font-size: 24px;
@@ -818,4 +818,5 @@ button {
 .padding_video_0{
     margin-top: 0px; 
 }
+
 
